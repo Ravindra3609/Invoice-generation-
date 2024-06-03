@@ -73,7 +73,7 @@ const Create = () => {
       price: 0,
       total: 0,
     });
-  },);
+  },[]);
 
   return (
     <Container size="md">
